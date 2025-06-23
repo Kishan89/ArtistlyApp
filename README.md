@@ -23,7 +23,7 @@
 
 | Home Page                        | Artist Cards                         | Onboard Form                        | Dashboard                                  |
 | -------------------------------- | ------------------------------------ | ----------------------------------- | ------------------------------------------ |
-| ![Home](public/screens/home.png) | ![Cards](public/screens/Artists.png) | ![Form](public/screens/onboard.png) | ![Dashboard](public/screens/dashboard.png) |
+| ![Home](public/screens/Home.png) | ![Cards](public/screens/Artists.png) | ![Form](public/screens/Onboard.png) | ![Dashboard](public/screens/Dashboard.png) |
 
 ---
 
