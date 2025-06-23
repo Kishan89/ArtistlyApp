@@ -1,0 +1,109 @@
+.container {
+  padding: 2rem 1.5rem;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.hero {
+  background: linear-gradient(135deg, #2e3192, #d770f7);
+  padding: 6rem 2rem;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 4rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+}
+
+.heroContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.title span {
+  color: #ffd700;
+  background: linear-gradient(to right, #b208ef, #00c6ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  margin: 1.5rem 0 2.5rem;
+  color: #e6f0ff;
+}
+
+.cta {
+  background: #fff;
+  color: #0072ff;
+  padding: 0.85rem 2rem;
+  font-weight: 600;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.cta:hover {
+  background: linear-gradient(135deg, #0072ff, #00c6ff);
+  color: #fff;
+}
+
+.categories {
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 2.4rem;
+  margin-bottom: 2.5rem;
+  color: #222;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  height: 200px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+  filter: brightness(1.05);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+.overlay h3 {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
