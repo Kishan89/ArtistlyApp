@@ -11,8 +11,10 @@ export default function ArtistsPage() {
   const [filtered, setFiltered] = useState([]);
 
   useEffect(() => {
-    const stored = JSON.parse(localStorage.getItem("artists") || "[]");
-    const combined = [...defaultData, ...stored];
+    const localArtists = JSON.parse(
+      localStorage.getItem("addedArtists") || "[]"
+    );
+    const combined = [...defaultData, ...localArtists];
     setAllArtists(combined);
     setFiltered(combined);
   }, []);

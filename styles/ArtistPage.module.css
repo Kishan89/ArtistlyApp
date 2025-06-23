@@ -2,13 +2,17 @@
   padding: 3rem 2rem;
   background: linear-gradient(135deg, #f9f9f9, #e6eaf0);
   min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  box-sizing: border-box;
 }
 
 .heading {
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 2.5rem;
-  color: #333;
+  color: #2c2c2c;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 .grid {
@@ -16,6 +20,34 @@
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 2rem;
   justify-content: center;
-  align-items: flex-start;
+  align-items: stretch;
   margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+/* ✅ Responsive refinements */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 2rem;
+  }
+
+  .container {
+    padding: 2rem 1.2rem;
+  }
+
+  .grid {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1.75rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    padding: 0;
+    gap: 1.2rem;
+  }
 }

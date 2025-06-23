@@ -26,9 +26,9 @@ export default function OnboardPage() {
   } = useForm({ resolver: yupResolver(schema) });
 
   const onSubmit = (data) => {
-    const existing = JSON.parse(localStorage.getItem("artists") || "[]");
+    const existing = JSON.parse(localStorage.getItem("addedArtists") || "[]");
     const updated = [...existing, data];
-    localStorage.setItem("artists", JSON.stringify(updated));
+    localStorage.setItem("addedArtists", JSON.stringify(updated));
     alert("Artist onboarded!");
     reset();
   };

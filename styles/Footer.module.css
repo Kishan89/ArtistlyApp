@@ -67,3 +67,23 @@
   font-size: 0.85rem;
   color: #aaa;
 }
+
+@media (max-width: 768px) {
+  .inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .brand h2 {
+    font-size: 1.5rem;
+  }
+
+  .links {
+    align-items: center;
+  }
+
+  .social {
+    justify-content: center;
+  }
+}

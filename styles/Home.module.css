@@ -107,3 +107,77 @@
   font-weight: 700;
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
+
+@media (max-width: 992px) {
+  .title {
+    font-size: 2.8rem;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+  }
+
+  .cta {
+    font-size: 1rem;
+    padding: 0.7rem 1.5rem;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.4rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .cta {
+    font-size: 0.95rem;
+    padding: 0.65rem 1.2rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .card {
+    height: 180px;
+  }
+
+  .overlay h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+  }
+
+  .cta {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.8rem;
+  }
+
+  .card {
+    height: 160px;
+  }
+
+  .overlay h3 {
+    font-size: 1.05rem;
+  }
+}

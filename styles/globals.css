@@ -10,6 +10,7 @@ body {
   font-family: "Segoe UI", Roboto, sans-serif;
   scroll-behavior: smooth;
   color: #1a1a1a;
+  background: #f4f7fa;
 }
 
 a {
@@ -61,17 +62,17 @@ a {
     transform: translateY(0);
   }
 }
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: "Segoe UI", Roboto, sans-serif;
-  background: #f4f7fa;
-  color: #1a1a1a;
-  scroll-behavior: smooth;
-}
 
-a {
-  text-decoration: none;
-  color: inherit;
+@media (max-width: 768px) {
+  .main-content {
+    padding: 1.5rem 1rem;
+  }
+
+  .body-gradient {
+    background-size: 300% 300%;
+  }
+
+  .layout-container {
+    padding: 0;
+  }
 }
