@@ -2,7 +2,7 @@
 
 **Artistly** is a fully responsive, modern web platform to discover and book **performing artists** like Singers, Dancers, DJs, and Public Speakers for any event — built with **Next.js 14**, CSS Modules, and hosted on **Vercel**.
 
-🌐 **Live App**: [https://artistly-app-chi.vercel.app](https://artistly-app-chi.vercel.app)  
+🌐 **Live App**: [https://artistly-app-chi.vercel.app](https://artistly-app-three.vercel.app/)  
 📂 **GitHub Repo**: [github.com/Kishan89/ArtistlyApp](https://github.com/Kishan89/ArtistlyApp)
 
 ---
