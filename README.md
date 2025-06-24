@@ -19,11 +19,13 @@
 
 ---
 
-## 📸 Preview
+## 📸 Preview (Desktop)
 
 | Home Page                        | Artist Cards                         | Onboard Form                        | Dashboard                                  |
 | -------------------------------- | ------------------------------------ | ----------------------------------- | ------------------------------------------ |
 | ![Home](public/screens/Home.png) | ![Cards](public/screens/Artists.png) | ![Form](public/screens/Onboard.png) | ![Dashboard](public/screens/Dashboard.png) |
+
+# <<<<<<< HEAD
 
 ---
 
